@@ -5,7 +5,7 @@ int main()
     printf("Enter the limit :");
     scanf("%d",&n);
 
-    printf("\nEnter %d Number :",n);
+    printf("\nEnter %d Number:",n);
     for(i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
