@@ -11,14 +11,13 @@ int main()
         scanf("%d",&a[i]);
     }
     
-   printf("\nCoping Array........");
    for(i=0;i<n;i++)
    {
       b[i]=a[i];
    }
-   printf("\nArray :");
+   printf("\n Copied Array :");
    for(i=0;i<n;i++)
    {
-     printf("\n%d",b[i]);
+     printf("%d\t",b[i]);
    }
 }
